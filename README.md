@@ -81,14 +81,7 @@
     <div class="gallery" aria-label="Example images">
       <!-- First image (external, works as-is) -->
       <img src="https://i.redd.it/te6pkxxjck561.png" alt="Example photo from Reddit">
-
-      <!-- Second image (Tenor GIF) -->
-      <!-- Replace the src below with the direct media URL you get from Tenor (right-click GIF → "Copy image address" or Inspect → img[src]) -->
-      <!-- Example direct CDN pattern: https://tenor.com/view/sonic-exe-freaky-sonic-the-hedgehog-sonic-rizz-gif-650553353834507764 -->
-      <img src="https://tenor.com/view/sonic-exe-freaky-sonic-the-hedgehog-sonic-rizz-gif-650553353834507764" alt="Example animated GIF from Tenor">
-    </div>
-
-    <p class="hint">Make an image clickable: <a class="example-link" href="https://example.com" target="_blank" rel="noopener noreferrer">clickable image link</a></p>
+      
   </div>
 </body>
 </html>
