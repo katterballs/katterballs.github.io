@@ -85,7 +85,7 @@
       <!-- Second image (Tenor GIF) -->
       <!-- Replace the src below with the direct media URL you get from Tenor (right-click GIF → "Copy image address" or Inspect → img[src]) -->
       <!-- Example direct CDN pattern: https://media.tenor.com/<id>/some-name.gif -->
-      <img src="https://media.tenor.com/REPLACE_WITH_DIRECT_GIF_URL.gif" alt="Example animated GIF from Tenor">
+      <img src="https://tenor.com/view/sonic-exe-freaky-sonic-the-hedgehog-sonic-rizz-gif-650553353834507764" alt="Example animated GIF from Tenor">
 
       <!-- Fallback link to the Tenor page in case direct file access fails -->
       <!-- <a href="https://tenor.com/WdHIL9K9K4" target="_blank" rel="noopener noreferrer">Open GIF on Tenor</a> -->
