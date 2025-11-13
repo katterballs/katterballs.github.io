@@ -96,7 +96,7 @@
 
     <div class="gallery" aria-label="Example images">
       <!-- Local image (put the file at repo/images/photo1.jpg) -->
-      <img src="images/photo1.jpg" alt="Example photo from repo">
+      <img src="[images/photo1.jpg](https://i.redd.it/te6pkxxjck561.png)" alt="Example photo from repo">
 
       <!-- Remote image example (not recommended for production unless stable URL) -->
       <img src="https://raw.githubusercontent.com/<owner>/<repo>/main/images/photo2.jpg" alt="Example remote photo">
@@ -108,5 +108,5 @@
 </html>
 
 
-  [Visit example.com](https://www.desmos.com/calculator/e63zhdudbg)
+  [the prize!](https://www.desmos.com/calculator/e63zhdudbg)
 
