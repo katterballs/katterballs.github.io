@@ -5,16 +5,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Rainbow Gradient Text + Images</title>
   <style>
-    /* Make the whole page black */
     html, body {
       height: 100%;
       margin: 0;
-      background: #000; /* solid black background */
+      background: #000;
       color: #fff;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     }
-
-    /* Center content */
     .wrap {
       min-height: 100%;
       display: flex;
@@ -26,13 +23,10 @@
       box-sizing: border-box;
       text-align: center;
     }
-
-    /* Rainbow text that moves as a gradient */
     .rainbow {
       font-size: clamp(2.25rem, 8vmin, 6rem);
       font-weight: 800;
       line-height: 1;
-      /* gradient colors */
       background: linear-gradient(
         90deg,
         #ff0000,
@@ -45,28 +39,21 @@
         #ff007f,
         #ff0000
       );
-      background-size: 200% 100%; /* make gradient wider so it can move */
+      background-size: 200% 100%;
       -webkit-background-clip: text;
       background-clip: text;
-      color: transparent; /* fallback */
-      -webkit-text-fill-color: transparent; /* Safari */
+      color: transparent;
+      -webkit-text-fill-color: transparent;
       animation: gradient-move 6s linear infinite;
       margin: 0;
       padding: 0 1rem;
       text-wrap: balance;
+      filter: drop-shadow(0 6px 20px rgba(0,0,0,0.8));
     }
-
     @keyframes gradient-move {
       0%   { background-position: 0% 50%; }
       100% { background-position: 200% 50%; }
     }
-
-    /* Optional subtle glow */
-    .rainbow {
-      filter: drop-shadow(0 6px 20px rgba(0,0,0,0.8));
-    }
-
-    /* Simple responsive image gallery */
     .gallery {
       display: flex;
       gap: 1rem;
@@ -74,7 +61,6 @@
       justify-content: center;
       align-items: center;
     }
-
     .gallery img {
       max-width: min(45vw, 320px);
       width: 100%;
@@ -83,8 +69,6 @@
       border: 3px solid rgba(255,255,255,0.06);
       box-shadow: 0 10px 30px rgba(0,0,0,0.6);
     }
-
-    /* small helper text */
     .hint { color: #bfbfbf; font-size: .95rem; }
     a.example-link { color: #9fd6ff; text-decoration: underline; }
   </style>
@@ -95,11 +79,16 @@
     <p class="hint">click the prize.</p>
 
     <div class="gallery" aria-label="Example images">
-      <!-- First image (external) -->
+      <!-- First image (external, works as-is) -->
       <img src="https://i.redd.it/te6pkxxjck561.png" alt="Example photo from Reddit">
 
-      <!-- Second image (GIF) -->
-      <img src="https://tenor.com/WdHIL9K9K4.gif" alt="Example animated GIF from Tenor">
+      <!-- Second image (Tenor GIF) -->
+      <!-- Replace the src below with the direct media URL you get from Tenor (right-click GIF → "Copy image address" or Inspect → img[src]) -->
+      <!-- Example direct CDN pattern: https://media.tenor.com/<id>/some-name.gif -->
+      <img src="https://media.tenor.com/REPLACE_WITH_DIRECT_GIF_URL.gif" alt="Example animated GIF from Tenor">
+
+      <!-- Fallback link to the Tenor page in case direct file access fails -->
+      <!-- <a href="https://tenor.com/WdHIL9K9K4" target="_blank" rel="noopener noreferrer">Open GIF on Tenor</a> -->
     </div>
 
     <p class="hint">Make an image clickable: <a class="example-link" href="https://example.com" target="_blank" rel="noopener noreferrer">clickable image link</a></p>
