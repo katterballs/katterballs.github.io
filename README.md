@@ -91,8 +91,8 @@
 </head>
 <body>
   <div class="wrap">
-    <h1 class="rainbow">Moving Rainbow Gradient</h1>
-    <p class="hint">Full black background with animated rainbow text. Images below show how to include pictures.</p>
+    <h1 class="rainbow">welcome to my page</h1>
+    <p class="hint">click the prize.</p>
 
     <div class="gallery" aria-label="Example images">
       <!-- Local image (put the file at repo/images/photo1.jpg) -->
