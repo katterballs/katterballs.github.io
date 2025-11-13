@@ -95,18 +95,17 @@
     <p class="hint">click the prize.</p>
 
     <div class="gallery" aria-label="Example images">
-      <!-- Local image (put the file at repo/images/photo1.jpg) -->
-      <img src="[images/photo1.jpg](https://i.redd.it/te6pkxxjck561.png)" alt="Example photo from repo">
+      <!-- First image (external) -->
+      <img src="https://i.redd.it/te6pkxxjck561.png" alt="Example photo from Reddit">
 
-      <!-- Remote image example (not recommended for production unless stable URL) -->
-      <img src="https://raw.githubusercontent.com/<owner>/<repo>/main/images/photo2.jpg" alt="Example remote photo">
+      <!-- Second image (GIF) -->
+      <img src="https://tenor.com/WdHIL9K9K4.gif" alt="Example animated GIF from Tenor">
     </div>
 
     <p class="hint">Make an image clickable: <a class="example-link" href="https://example.com" target="_blank" rel="noopener noreferrer">clickable image link</a></p>
   </div>
 </body>
 </html>
-
 
   [the prize!](https://www.desmos.com/calculator/e63zhdudbg)
 
