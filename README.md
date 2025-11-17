@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -85,6 +85,7 @@
   </div>
 </body>
 </html>
+
 
   [the prize!](https://www.desmos.com/calculator/e63zhdudbg)
 
